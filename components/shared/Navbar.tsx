@@ -92,10 +92,11 @@ const Navbar = () => {
                 </NavigationMenuList>
             </NavigationMenu>
 
-            <div className='md:hidden flex w-full h-[100px] justify-between px-8'>
+            <div className='md:hidden flex w-full h-[130px] justify-between px-8 align-center'>
 
-                <Image src={'/logo.PNG'} alt='logo' width={150} height={150} className='flex-shrink-0' />
-
+                <div className='relative w-[100px] h-[100px] flex-shrink-0'>
+                <Image src={'/logo.PNG'} alt='logo' fill className='object-contain object-center' />
+                </div>
                 <Sheet>
                     <SheetTrigger className='flex-shrink-0'>
                         <img
