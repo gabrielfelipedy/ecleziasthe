@@ -92,7 +92,7 @@ const Navbar = () => {
                 </NavigationMenuList>
             </NavigationMenu>
 
-            <div className='md:hidden flex w-full h-[130px] justify-between px-8 align-center'>
+            <div className='md:hidden flex w-full  justify-between px-8 align-center'>
 
                 <div className='relative w-[100px] h-[100px] flex-shrink-0'>
                 <Image src={'/logo.PNG'} alt='logo' fill className='object-contain object-center' />
