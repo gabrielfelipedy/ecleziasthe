@@ -28,9 +28,9 @@ export default function Home() {
       </section>
       
       <section className="mt-15">
-        <Biography orientation="img-left" image="/bassist.png" title="NEY SARRAF" text={loremIpsum({ count: 250, units: 'words' })} />
-        <Biography orientation="img-right" image="/guitarist.png" title="GABRIEL FELIPE" text={loremIpsum({ count: 250, units: 'words' })} />
-        <Biography orientation="img-left" image="/drummer.png" title="THIAGO ACEBOLUDO" text={loremIpsum({ count: 250, units: 'words' })} />
+        <Biography orientation="img-left" image="/bassist.png" title="NEY SARRAF" text={loremIpsum({ count: 150, units: 'words' })} />
+        <Biography orientation="img-right" image="/guitarist.png" title="GABRIEL FELIPE" text={loremIpsum({ count: 150, units: 'words' })} />
+        <Biography orientation="img-left" image="/drummer.png" title="THIAGO ACEBOLUDO" text={loremIpsum({ count: 150, units: 'words' })} />
   
       </section>
       </main>
